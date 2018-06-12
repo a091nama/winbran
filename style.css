@@ -1,0 +1,460 @@
+/* 1. */
+
+a:link{
+color: #202020;
+}
+a:visited{
+color: #202020;
+}
+a:active{
+color: #202020;
+text-decoration: none;
+}
+
+body {
+	/*background: url("kepek/hatter7.png");*/
+	background: #e7e7e7;
+	font-family: Bookman Old Style;
+}
+@media all and (max-width: 768px) {
+  body {
+    background: #554499;
+  }
+}
+div.teljes {
+	z-index: 1;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	background: linear-gradient(to bottom right,white, #666666);
+	box-shadow: -3px -1px 10px 7px #333333;
+	background-image: linear-gradient(top, rgba(0,0,255,0.7), rgba(0,0,255,0.2));
+}
+div.kep {
+	float: left;
+	width: 20%;
+	height: 50px;
+}
+div.menusor {
+	float: left;
+	width: 63%;
+	height: 30px;
+	padding: 0px;
+}
+ul.felsorolas {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+li.menupontok {
+	color: #202020;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+	line-height: 160%;
+	border-right: 1px solid #202020;
+	font-size: 110%;
+}
+a.lista {
+	color: #202020;
+	text-decoration: none;
+	cursor:hand;
+	cursor:pointer;
+}
+li.menupontok:hover {
+	color:#606060;
+	font-size: 110%;
+}
+
+/* 2. */
+
+div.fodiv {
+	width:1000px;
+	padding: 20px;
+	padding-top: 0px;
+	margin: 0 auto 0 auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: rgba(100,100,100,0.1);
+	font-family: Bookman Old Style;
+	color: #202020;
+}
+
+/* 3. */
+
+.hirdetes {
+	padding: 10px;
+	background-color: rgba(160,160,160,0.7);
+	text-align: justify;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	line-height: 200%;
+	margin-left: 0px;
+	font-family: Sitka Text;
+	color: #F8F8F8;
+}
+p.motto {
+	color: #F8F8F8;
+	font-family: Sitka Text;
+	font-size: 30px;
+}
+.hatter {
+	background-image: url("kepek/erzsebethid.jpg");
+	height: 260px;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	padding-top: 70px;
+	padding-bottom: 0px;
+	padding-right: 360px;
+	border-radius: 10px;
+}
+
+/* 4. */
+
+.magunkrol_div {
+	background-color: #F8F8F8;
+	width: 860px;
+	padding: 20px;
+	font-family: "Bookman Old Style";
+	border-radius: 10px;
+	margin-top: 20px;
+	color: #202020;
+	text-align: justify;
+}
+
+/* 5. */
+
+.tabla_div {
+	background-color: #F8F8F8;
+	width: 900px;
+	height: 600px;
+	font-family: Bookman Old Style;
+	border-radius: 10px;
+}
+table.arak {
+	border-spacing: 0px;
+	width: 840px;
+	color: #202020;
+}
+table.arak td {
+	border-bottom: 1px solid #EEEEEE;
+	border-collapse:collapse;
+	vertical-align: middle;
+	height: 50px;
+}
+table.arak tr.magas {
+	height: 60px;
+}
+table.arak td.middle_okes {
+	vertical-align: middle;
+	text-align: center;
+	background-color: #EEEEEE;
+	border-left: 1px solid #F8F8F8;
+	border-bottom: 1px solid #F8F8F8;
+	width: 20%;
+}
+table.arak td.no_line {
+	vertical-align: middle;
+	text-align: center;
+	border-left: 1px solid #F8F8F8;
+	border-bottom: 0px;
+}
+table.arak td.middle_nemokes {
+	vertical-align: middle;
+	text-align: center;
+	width: 20%;
+}
+
+/* 6. */
+
+.elerhetoseg_div {
+	padding: 20px;
+	background-color: #F8F8F8;
+	width: 860px;
+	height: 490px;
+	font-family: Bookman Old Style;
+	border-radius: 10px;
+}
+table.elerhetoseg {
+	border-spacing: 0px;
+	width: 840px;
+	color: #202020;
+}
+ul.lista {
+	list-style-type: none;
+}
+table.elerhetoseg td.left {
+	border-right: 20px solid #F8F8F8;
+}
+table.elerhetoseg td.top {
+	height: 20%;
+}
+
+/* 7. */
+
+div.info {
+	color: #202020;
+	font-style: italic;
+	text-align: right;
+	padding:10px;
+	font-size: 15px;
+	font-family: Bookman Old Style;
+}
+div.irodak {
+	width: 900px;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+div.irodakcim {
+	text-align: left;
+	font-size: 160%;
+	margin-left: 27px;
+	color: #202020;
+}
+.irodaKep1 {
+	width:400px;
+	height:277px;
+	background: url("kepek/iroda1.jpg") no-repeat;
+	background-size: cover;
+	padding: 10px;
+	border-radius: 10px;
+}
+.irodaKep2 {
+	width:400px;
+	height:277px;
+	background: url("kepek/iroda2.jpg") no-repeat;
+	background-size: cover;
+	padding: 10px;
+	border-radius: 10px;
+}
+.irodaKep3 {
+	width:400px;
+	height:277px;
+	background: url("kepek/iroda3.jpg") no-repeat;
+	background-size: cover;
+	padding: 10px;
+	border-radius: 10px;
+}
+.irodaSzoveg {
+	width:340px;
+	height:217px;
+	background:#000000;
+	opacity:0;
+	border-radius: 10px;
+	-webkit-transition: 0.1s;
+	transition: 0.2s;
+}
+p.Iroda_intro {
+	font-size: 100%;
+}
+.irodaKep1:hover .irodaSzoveg {
+	opacity:0.8;
+	text-align:justify;
+	color:#FFF;
+	font-weight:200;
+	font-family: Bookman Old Style;
+	font-size: 90%;
+	padding:30px;
+}
+.irodaKep2:hover .irodaSzoveg {
+	opacity:0.8;
+	text-align:justify;
+	color:#FFF;
+	font-weight:200;
+	font-family: Bookman Old Style;
+	font-size: 90%;
+	padding:30px;
+}
+.irodaKep3:hover .irodaSzoveg {
+	opacity:0.8;
+	text-align:justify;
+	color:#FFF;
+	font-weight:200;
+	font-family: Bookman Old Style;
+	font-size: 90%;
+	padding:30px;
+}
+td.stilus {
+	color: #202020;
+	font-size:150%;
+	padding: 20px;
+	padding-bottom: 5px;
+	padding-top: 30px;
+	font-family: Bookman Old Style;
+}
+
+/* 8. */
+
+div.mail {
+	width:860px;
+	padding: 20px;
+	background-color: #F8F8F8;
+	border-radius: 10px;
+	font-family: Bookman Old Style;
+}
+td.data{
+	vertical-align: top;
+	text-align: left;
+}
+td.send {
+	text-align: center;
+	vertical-align: middle;
+}
+input.send {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	color: #202020;
+	-webkit-transition: 0.1s;
+    transition: 0.3s;
+}
+input.send:focus {
+	border: 2px solid #555;
+}
+input.send:active {
+	background-color: #909090;
+}
+textarea.email {
+	width: 400px;
+	height: 84px;
+}
+input.email {
+	width: 400px;
+	height: 21px;
+}
+.lightbox {
+	display: none;
+
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.lightbox:target {
+	outline: none;
+
+	display: block;
+}
+div.felugro {
+	width: 200px;
+	height: 80px;
+	background-color: red;
+	color: blue;
+	margin-top: 50px;
+}
+input[type=text] {
+    width: 100%;
+	height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.1s;
+    transition: 0.3s;
+    outline: none;
+	color: black;
+	border-radius: 5px;
+}
+input[type=text]:focus {
+    border: 2px solid #555;
+}
+input[type=email] {
+    width: 100%;
+	height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.1s;
+    transition: 0.3s;
+    outline: none;
+	border-radius: 5px;
+}
+input[type=email]:focus {
+    border: 2px solid #555;
+}
+textarea {
+	border: 2px solid #ccc;
+	-webkit-transition: 0.1s;
+	transition: 0.3s;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    /*border: 2px solid #ccc;*/
+    border-radius: 5px;
+    background-color: white;
+    resize: none;
+	outline: none;
+}
+textarea:focus {
+	border: 2px solid #555;
+}
+/* 9. */
+
+footer {
+	border-top: 2px solid #666666;
+	color: #cccccc;
+	margin: 0px;
+	width: 100%;
+	padding-top: 20px;
+	background-color: #202020;
+}
+
+footer a:link{
+color: #ccc;
+}
+
+footer a:visited{
+color: #ccc;
+text-decoration: none;
+}
+
+footer a:active{
+color: #ccc;
+text-decoration: none;
+}
+
+ul.labjegyzek {
+}
+
+li.lab {
+	padding: 1px;
+	list-style-type: none;
+	float: left;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 90%;
+}
+div.copyright {
+	width: 600px;
+	border-top: 1px solid #333333;
+	margin-top: 10px;
+	padding-top: 50px;
+}
+
+/* 10. */
+
+div.partnerek {
+	width: 900px;
+	background-color: #F8F8F8;
+	border-radius: 10px;
+
+}
+div.partnercim {
+	text-align: left;
+	font-size: 160%;
+	margin-left: 27px;
+}
+/*div.kepekhatter {
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+}*/
